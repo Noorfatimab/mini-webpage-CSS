@@ -6,4 +6,4 @@ This is a mini webpage styled with CSS to practice:
 - Colors, fonts, spacing
 - Buttons and basic layout
 
-**Live demo:** [Click here]()
+**Live demo:** https://noorfatimab.github.io/mini-webpage-CSS/  
