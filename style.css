@@ -1,42 +1,60 @@
-/* Body styling */
+/* General body styling */
 body {
-    background-color: #f0f8ff;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
 }
 
-/* Header styling */
-#main-header {
+/* Header */
+header {
     background-color: #3498db;
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 30px 0;
 }
 
-/* Paragraph styling */
-.intro-text {
-    color: #2c3e50;
+/* Navigation links */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Highlighted paragraph */
+.highlight {
+    color: #e74c3c; /* red-ish color */
     font-size: 18px;
+}
+
+/* Main content sections */
+main section {
     margin: 20px;
-    padding: 10px;
-}
-
-/* Button styling */
-#click-me {
-    background-color: #e74c3c;
-    color: white;
-    padding: 10px 20px;
-    border: none;
+    padding: 15px;
+    background-color: #f0f0f0;
     border-radius: 5px;
-    cursor: pointer;
 }
 
-/* Footer styling */
-#footer {
-    background-color: #2c3e50;
+/* Sidebar styling */
+aside {
+    background-color: #e8e8e8;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Links inside sidebar */
+aside a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
     color: white;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    padding: 15px;
 }
+
